@@ -1,0 +1,35 @@
+.invitation {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  h1 {
+    color: var(--highlight1);
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    text-align: center;
+    color: var(--highlight2);
+    font-size: 30px;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+
+  .location {
+    iframe {
+      width: 95%;
+      height: 100%;
+    }
+  }
+}
+
+.confirmation {
+  margin-bottom: 50px;
+}

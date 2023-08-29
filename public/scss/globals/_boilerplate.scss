@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font);
+  background-image: url("/img/balloons.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: var(--color);
+}
+
+p {
+  color: var(--font-color);
+  margin: 15px;
+  padding: 15px;
+}
