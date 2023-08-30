@@ -1,7 +1,7 @@
 <main class="invitation">
   <header class="title">
-    <h1>Mariia</h1>
-    <h3>Turns 1</h3>
+    <h1><%= locals.name %></h1>
+    <h3>Turns <%= locals.age %></h3>
   </header>
 
   <section class="photo">
@@ -10,8 +10,8 @@
 
   <article class="text">
     <p>
-      A Mariia gostaria de convidar você para celebrar com ela esse primeiro ano
-      de vida!
+      A <%= locals.name %> gostaria de convidar você para celebrar com ela esse
+      primeiro ano de vida!
     </p>
     <p>Sábado, 16 de Setembro de 2023, às 16HS</p>
   </article>
@@ -25,7 +25,7 @@
 
   <form action="/submit" method="post" class="form">
     <div class="labels">
-      <label for="sim">Eu vou</label>
+      <label for="sim">Eu vou:</label>
       <input type="radio" name="sim" />
     </div>
 
