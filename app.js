@@ -38,8 +38,10 @@ app.use(express.static("public"));
 
 // IMPORT PERSONAL MODULES
 const indexRouter = require("./routes/indexRouter");
+const confirmationRouter = require("./routes/confirmationRouter");
 
 // USING PERSONAL MODULES
 app.use(indexRouter);
+app.use(confirmationRouter);
 
 app.listen(PORT, () => console.log(`App is listening on port ${PORT}`));
